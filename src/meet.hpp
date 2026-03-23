@@ -1,3 +1,3 @@
-#include <string>
+#pragma once
 
-std::string meet();
+void append(int*& arr, int& size, int& capacity, int value);
